@@ -4,6 +4,9 @@ This repository is used to store the originals of X-Road joint development work 
 
 - [Charter](CHARTER.md)
 - [Workflow](WORKFLOW.md)
+- Roadmap
+- [Ongoing] (ONGOING.md)
+- NFR (Non-Functional Requirements)
 
 ### How do the documents relate to each other?
 Sketch of the 'Big Picture':
