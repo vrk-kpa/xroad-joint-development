@@ -80,8 +80,8 @@ Uuenduste tõmbamise eesmärk on kergendada Täitja teostatavate arenduste mesti
 1.	featuuride sobivus X-tee ühisesse koodibaasi;
 2.	vastavus X-tee mittefunktsionaalsetele nõudmistele;
 3.	Teekaardil määratud versiooninumbri korrektne kasutamine;
-4.	muudatuste logi (ingl changelog) uuendatus;
-5.	ehitamise (ingl build) ja testide korrektne töötamine;
+4.	muudatuste logi (ingl *changelog*) uuendatus;
+5.	ehitamise (ingl *build*) ja testide korrektne töötamine;
 6.	testide küllaldane katvus;
 7.	X-tee koodistiili järgimine;
 8.	koodi küllaldane kommenteeritus;
