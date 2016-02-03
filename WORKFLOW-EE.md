@@ -12,6 +12,8 @@
 
 1.3	Pooled seavad eesmärgiks, et töökorraldus on efektiivne ja muutmisvajadust esilekutsuvate asjaolude ilmnemisel ka paindlik. Lepingu jooksul on töökorralduse parendamiseks õigus teha ettepanekuid mõlemal Poolel. Väiksemad muudatused töökorralduses lepitakse kokku projekti töökoosolekutel ja fikseeritakse töökoosolekute protokollides.
 
+Märkus. Töökorralduse täiendusettepanekuid võib teha GitHubi probleemide (*Issue*), tõmbenõuete (*Pull Request*) või Tellijaga otsekommunikatsiooni abil. 
+
 ### 2	Arenduse rahvusvaheline koordineerimine
 
 2.1	Tööd korraldatakse kooskõlas X-tee rahvusvahelise ühisarenduse töökorraldusega.
