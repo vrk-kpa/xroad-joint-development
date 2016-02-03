@@ -3,8 +3,6 @@
 X-Road Joint Development
 # Workflow Policy
 
-DRAFT v0.6
-
 ##1	General
 
 1.1	This document establishes workflow policy for collaborative and open source software development of X-Road software. Workflow Policy strives to serve as a handbook or charter for all practical aspects of development.
@@ -13,7 +11,7 @@ DRAFT v0.6
 
 1.3	Goals of the workflow policy are to: establish productive and secure collaborative open source working environment; assure production of high quality software; avoid duplication of effort, facilitate re-use of software; transparency and openness; broader community of developers; use of software development best practice; clear communication among Partners as well as other stakeholders in the X-Road development process; innovation.
 
-1.4	Workflow implements the higher-level agreements of "X-Road Change Management Process" [Change Management Process].
+1.4	Workflow implements the higher-level agreements of "X-Road Joint Development Charter" [Charter].
 
 1.5	X-Road development uses a collaborative model based on Git distributed version control system [Git].
 
@@ -35,11 +33,13 @@ DRAFT v0.6
 
 ## 4	Feature development and integration
 
-4.1	Partners co-ordinate development by X-Road Roadmap (see [Change Management Process]).
+4.1	Partners co-ordinate development by X-Road Roadmap (see [Charter]).
 
 4.2	Vendors develop software in their repositories, on `feature` branches.
 
 ![Feature Development](IMG/FeatureDevelopment.PNG)
+
+4.2a. **Vendor version numbering.** To distinguish vendor-specific work, vendor can label its product by attaching vendor suffix and vendor version number to X-Road semantic version number. Example: `6.8.0.AcmeCorp.3` denotes software developed by Acme Corporation, version 3.
 
 4.3	Procedure:
 
@@ -75,7 +75,7 @@ a)	Head Architect creates a `release` branch from `XM/develop`.
 
 b)	both Partners thoroughly review the software to be released.
 
-c)	Steering Committee decides to release, including the version number (see [Change Management Process], sections “Release sequence” and “Version compatibility”).
+c)	Steering Committee decides to release, including the version number (see [Charter], sections “Release sequence” and “Version compatibility”).
 
 d)	Head Architect pushes software from `XM/release` into `XM/master` and tags the commit with version number.
 
@@ -99,7 +99,7 @@ e)	Head Architect also updates `XM/develop` with changes made on `release` branc
 
 a)	Head Architect creates a `XM/hotfix` branch from `XM/master`.
 
-b)	A Partner is assigned to prepare a patch (see [Change Management Process], section “Warranty”).
+b)	A Partner is assigned to prepare a patch (see [Charter], section “Warranty”).
 
 c)	Partner, possibly using a Vendor, prepares the patch and commits it to `XM/hotfix`.
 
@@ -150,20 +150,20 @@ c)	VRK creates repository `XO` and initialises it by committing X-Road v6.0 Secu
 11.4	Head Architect brings proposal to Partner Steering Committee who decides to accept or reject the proposal. 
 
 ## 12	References
-[BitBucket] BitBucket Server. Controlling access to code. https://confluence.atlassian.com/bitbucketserver/controlling-access-to-code-776639770.html.
+[BitBucket] BitBucket Server. [Controlling access to code](https://confluence.atlassian.com/bitbucketserver/controlling-access-to-code-776639770.html).
 
-[Change Management Process] X-Road Change Management Process. v0.92, 6.10.2015.
+[Charter] [X-Road Joint Development Charter](https://github.com/vrk-kpa/xroad-joint-development/blob/master/CHARTER.md).
 
-[Git] Git distributed version control system, https://git-scm.com/. 
+[Git] [Git distributed version control system](https://git-scm.com/). 
 
-[Gitflow] Atlassian, Comparing workflows, Gitflow workflow, https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow.
+[Gitflow] Atlassian, Comparing workflows, [Gitflow workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
 
-[GitHub Organization] Github.com, Introducing Organisations, https://github.com/blog/674-introducing-organizations. 
+[GitHub Organization] Github.com, [Introducing Organisations](https://github.com/blog/674-introducing-organizations). 
 
-[Driessen] Driessen V (2010) A successful Git branching model, http://nvie.com/posts/a-successful-git-branching-model/.
+[Driessen] Driessen V (2010) [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/).
 
-[Markdown] GitHub.com, GitHub Flavored Markdown, https://help.github.com/articles/github-flavored-markdown/. 
+[Markdown] GitHub.com, [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/). 
 
-[Stash] Atlassian.com, Code, Manage, Collaborate, https://www.atlassian.com/software/bitbucket. 
+[Stash] Atlassian.com, [Code, Manage, Collaborate](https://www.atlassian.com/software/bitbucket). 
 
-[Non-Functional Requirements] X-Road Non-Functional Requirements
+[Non-Functional Requirements] X-Road Non-Functional Requirements.
