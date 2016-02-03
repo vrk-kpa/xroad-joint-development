@@ -2,6 +2,8 @@
 
 *Estonian-specific rules for X-Road development workflow. The rules are kept in accordance with [X-Road Joint Development regulations](https://github.com/vrk-kpa/xroad-joint-development). Intended readership of this document is X-Road developers contracted by Estonian State Information System Authority.*
 
+*The original, authentic copy of this document is held in Estonian fork of X-Road Joint Development regulations repository:  [https://github.com/e-gov/xroad-joint-development/blob/master/WORKFLOW-EE.md](https://github.com/e-gov/xroad-joint-development/blob/master/WORKFLOW-EE.md).*
+
 ### 1	Üldine
 
 1.1	Käesolevaga sätestatakse Tööde töökorralduse nõuded.
