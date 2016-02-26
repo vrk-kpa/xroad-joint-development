@@ -12,7 +12,7 @@
 
 1.3	Pooled seavad eesmärgiks, et töökorraldus on efektiivne ja muutmisvajadust esilekutsuvate asjaolude ilmnemisel ka paindlik. Lepingu jooksul on töökorralduse parendamiseks õigus teha ettepanekuid mõlemal Poolel. Väiksemad muudatused töökorralduses lepitakse kokku projekti töökoosolekutel ja fikseeritakse töökoosolekute protokollides.
 
-Märkus. Töökorralduse täiendusettepanekuid võib teha GitHubi probleemide (*Issue*), tõmbenõuete (*Pull Request*) või Tellijaga otsekommunikatsiooni abil. 
+Märkus. Töökorralduse täiendusettepanekuid võib teha GitHubi probleemide (*Issue*), tõmbetaotluste (*Pull Request*) või Tellijaga otsekommunikatsiooni abil. 
 
 ### 2	Arenduse rahvusvaheline koordineerimine
 
@@ -31,7 +31,7 @@ Arenduste koordineerimiseks on Partnerid kokku leppinud töökorralduse, mille t
 
 ### 4	X-tee teekaart
 
-4.1	Arenduste koordineerimiseks kasutatakse X-tee teekaarti (ingl *X-Road Roadmap*), edaspidi Teekaart. Teekaardil fikseeritakse Partnerite poolt kokkulepitud arendustööde eesmärgid ja võtmetähtsusega tehnilised ning ajalised parameetrid.
+4.1	Arenduste koordineerimiseks kasutatakse X-tee teekaarti (ingl *X-Road Roadmap*), edaspidi Teekaart. Teekaardil fikseeritakse Partnerite poolt kokkulepitud arendustööde eesmärgid ja võtmetähtsusega tehnilised ning ajalised parameetrid. Teekaardi kinnitab Partnerite esindajatest koosnev juhtrühm (ingl *Steering Committee*).
 
 ### 5	X-tee `Master` hoidla
 
@@ -44,7 +44,7 @@ Arenduste koordineerimiseks on Partnerid kokku leppinud töökorralduse, mille t
 ### 6	Arendustöö ettevalmistamine
 
 6.1	Tellija püstitab arendusülesande.
-Arendusülesande püstitamisel selgitatakse välja, niipalju, kui see on mõistlik ja võimalik, mõjud ja seosed teiste Teekaardil olevate ja Teekaardile kandmiseks ettevalmistatavate arendustega. Mõjud ja seosed sõnastatakse. Teekaardi kinnitab Partnerite esindajatest koosnev juhtrühm (ingl *Steering Committee*).
+Arendusülesande püstitamisel selgitatakse välja, niipalju, kui see on mõistlik ja võimalik, mõjud ja seosed teiste Teekaardil olevate ja Teekaardile kandmiseks ettevalmistatavate arendustega. Mõjud ja seosed sõnastatakse. Arendus kantakse Teekaardile, kui see seal juba ei ole.
 
 6.2	Täitja tutvub arendusülesandega ja Teekaardiga.
 
@@ -101,4 +101,4 @@ Uuenduste tõmbamise eesmärk on kergendada Täitja teostatavate arenduste mesti
 - [Git] 	[Git distributed version control system](https://git-scm.com/). 
 - [Gitflow] 	Atlassian, Comparing workflows, [Gitflow workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
 - [Stash] 	Atlassian.com, [Code, Manage, Collaborate](https://www.atlassian.com/software/bitbucket).
-- [Workflow] 	[X-Road Joint Development Workflow](https://github.com/e-gov/Open-Workflow/blob/master/WORKFLOW.md).
+- [Workflow] 	[X-Road Joint Development Workflow](https://github.com/vrk-kpa/xroad-joint-development/blob/master/WORKFLOW.md).
