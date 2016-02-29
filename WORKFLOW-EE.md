@@ -12,8 +12,6 @@
 
 1.3	Pooled seavad eesmärgiks, et töökorraldus on efektiivne ja muutmisvajadust esilekutsuvate asjaolude ilmnemisel ka paindlik. Lepingu jooksul on töökorralduse parendamiseks õigus teha ettepanekuid mõlemal Poolel. Väiksemad muudatused töökorralduses lepitakse kokku projekti töökoosolekutel ja fikseeritakse töökoosolekute protokollides.
 
-Märkus. Töökorralduse täiendusettepanekuid võib teha GitHubi probleemide (*Issue*), vastuvõtusoovide (*Pull Request*) või Tellijaga otsekommunikatsiooni abil. 
-
 ### 2	Arenduse rahvusvaheline koordineerimine
 
 2.1	Tööd korraldatakse kooskõlas X-tee rahvusvahelise ühisarenduse töökorraldusega.
@@ -23,15 +21,17 @@ Koostöö nurgakiviks on ühtsena hoitav, ühine koodibaas ja dokumentatsioon. �
 
 Arenduste koordineerimiseks on Partnerid kokku leppinud töökorralduse, mille tähtsamad elemendid on arendusprotokoll (vt j 3), ühisarenduse tšarter [Charter], X-tee teekaart (vt j 4), töövoo reeglistik [Workflow] ja ühisarenduse peaarhitekti (ingl *Head Architect*) roll.
 
+Märkus: ka käesoleva Töökorralduse täiendusettepanekuid võib teha GitHubi probleemide (*Issue*) ja/või vastuvõtusoovide (*Pull Request*) abil, loomulikult ka Tellijaga otsekommunikatsiooni abil.
+
 ### 3	Arendusprotokoll
 
 3.1	X-teed arendatakse Git hajusa versioonihaldusprotokolli järgi [Git].
 
-3.2	Töökorraldusliku mudeli aluseks on Gitflow [Gitflow]. Git harudena kasutatakse `master`, `develop`, `release`, `hotfix` ning  featuuriharusid [Workflow].
+3.2	Töökorraldusliku mudeli aluseks on Gitflow [Gitflow]. Git harudena kasutatakse `master`, `develop`, `release`, `hotfix` ning  arendustükkide harusid [Feature Branch Workflow].
 
 ### 4	X-tee teekaart
 
-4.1	Arenduste koordineerimiseks kasutatakse X-tee teekaarti (ingl *X-Road Roadmap*), edaspidi Teekaart. Teekaardil fikseeritakse Partnerite poolt kokkulepitud arendustööde eesmärgid ja võtmetähtsusega tehnilised ning ajalised parameetrid.
+4.1	Arenduste koordineerimiseks kasutatakse X-tee teekaarti (ingl *X-Road Roadmap*), edaspidi Teekaart. (NB! Viide Teekaardile!) Teekaardil fikseeritakse Partnerite poolt kokkulepitud arendustööde eesmärgid ja võtmetähtsusega tehnilised ning ajalised parameetrid.
 
 4.2 Teekaardi kinnitab Partnerite esindajatest koosnev juhtrühm (ingl *Steering Committee*).
 
@@ -48,11 +48,11 @@ Arenduste koordineerimiseks on Partnerid kokku leppinud töökorralduse, mille t
 ### 6	Arendustöö ettevalmistamine
 
 6.1	Tellija püstitab arendusülesande.
-Arendusülesande püstitamisel selgitatakse välja niipalju, kui see on mõistlik ja võimalik, mõjud ja seosed teiste Teekaardil olevate ja Teekaardile kandmiseks ettevalmistatavate arendustega. Mõjud ja seosed sõnastatakse (kus?).
+Arendusülesande püstitamisel selgitatakse välja niipalju, kui see on mõistlik ja võimalik, mõjud ja seosed teiste Teekaardil olevate ja Teekaardile kandmiseks ettevalmistatavate arendustega. Mõjud ja seosed sõnastatakse (NB! Kus? Vajalik lisada viide Arendusülesande mõjudele ja seostele teiste Teekaardil olevate arendustega).
 
 6.2	Täitja arvestab arendusülesande planeerimisel ja teostamisel Teekaardiga.
 
-6.3	Tellija ja Täitja lepivad kokku arendusülesande täitmises (Leping).
+6.3	Tellija ja Täitja lepivad kokku arendusülesande täitmises (Leping). Üldjuhul sisaldab arendusülesanne endas nii koodi, dokumentatsiooni kui testide koostamist.
 
 6.4	Tellija uuendab Teekaarti.
 
@@ -62,30 +62,30 @@ Arendusülesande püstitamisel selgitatakse välja niipalju, kui see on mõistli
 
 7.2	Täitja moodustab X-tee `Master` hoidlast kloonimise või forkimise teel omale arendaja hoidla (ingl *vendor repo*).
 
-7.3	Täitja moodustab oma hoidlas `develop` harust arendatava featuuri haru. Erinevaid featuure võib ühes harus kombineerida siis, kui see on otstarbekas.
+7.3	Täitja moodustab oma hoidlas `develop` harust arendatava arendustüki haru. Erinevaid arendustükke võib ühes harus kombineerida siis, kui see on otstarbekas.
 
 ### 8	Arendustöö teostamine
 
 8.1	Täitja teostab arendustööd oma hoidlas.
 
 8.2	Täitja kohustub asjakohase perioodilisusega tõmbama endale 'Master' hoidla `develop` harust uuendusi.
-Uuenduste tõmbamise eesmärk on kergendada Täitja teostatavate arenduste mestimist (ingl *Merge*) `Master` hoidla `develop` harusse.
+Uuenduste tõmbamise eesmärk on kergendada Täitja teostatavate arendustükkide mestimist (ingl *Merge*) `Master` hoidla `develop` harusse.
 
 ### 9	Arendustöö tulemuste üleandmine
 
-9.1	Täitja esitab valminud koodi ja dokumentatsiooni vastuvõtmiseks `Master` hoidla `develop` harusse. Selleks esitab Täitja Git protokolli kohase vastuvõtusoovi (ingl *Pull Request*).
+9.1	Täitja esitab valminud arendustüki koodi ja dokumentatsiooni vastuvõtmiseks `Master` hoidla `develop` harusse. Selleks esitab Täitja Git protokolli kohase vastuvõtusoovi (ingl *Pull Request*).
 
-9.2	Enne vastuvõtusoovi esitamist peab Täitja veelkordselt tõmbama endale `Master` hoidla `develop` harust viimased uuendused ning lahendama võimalikud konfliktid viimaste uuenduste ja Täitja poolt arendatava tarkvara vahel.
+9.2	Enne vastuvõtusoovi esitamist peab Täitja veelkordselt tõmbama endale `Master` hoidla `develop` harust viimased uuendused ning lahendama võimalikud konfliktid viimaste uuenduste ja arendustüki vahel.
 
-9.3	(To be discussed!) Kui viimased uuendused ei olnud arendusülesande kokkuleppe sõlmimise ajal kantud Teekaardile ning põhjustasid konflikte, siis nende arvestamise ja lahendamisega seotud võimalike lisatööde kohta sõlmitakse Lepingule eraldi Lisa.
+9.3	(NB! To be discussed!) Kui viimased uuendused ei olnud arendusülesande kokkuleppe sõlmimise ajal kantud Teekaardile ning põhjustasid konflikte, siis nende arvestamise ja lahendamisega seotud võimalike lisatööde kohta sõlmitakse Lepingule eraldi Lisa.
 
-9.4	Tööde üleandmiseks peab Täitja tagama tema poolt valmistatud koodi ja dokumentatsiooni konfliktivaba mestitavuse `Master` hoidla `develop` harusse.
+9.4	Tööde üleandmiseks peab Täitja tagama tema poolt valmistatud arendustüki konfliktivaba mestitavuse `Master` hoidla `develop` harusse.
 
 9.5	Vastuvõtusoovi vaatab läbi X-tee ühisarenduse peaarhitekt, kaasates vajadusel Partnerite asjatundjaid.
 
 9.6	Vastuvõtusoovi läbivaatamisel lähtub peaarhitekt kriteeriumitest:
 
-1.	featuuride sobivus X-tee ühisesse koodibaasi;
+1.	arendustüki sobivus X-tee ühisesse koodibaasi;
 2.	vastavus X-tee mittefunktsionaalsetele nõudmistele;
 3.	Teekaardil määratud versiooninumbri korrektne kasutamine;
 4.	muudatuste logi (ingl *changelog*) uuendatus;
@@ -103,6 +103,8 @@ Uuenduste tõmbamise eesmärk on kergendada Täitja teostatavate arenduste mesti
 
 - [Bitbucket] 	Atlassian.com, [Code, Manage, Collaborate](https://www.atlassian.com/software/bitbucket).
 - [Charter] 	[X-Road Joint Development Charter](https://github.com/vrk-kpa/xroad-joint-development/blob/master/CHARTER.md).
+- [Feature Branch Workflow] [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 - [Git] 	[Git distributed version control system](https://git-scm.com/). 
 - [Gitflow] 	Atlassian, Comparing workflows, [Gitflow workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
+- [Teekaart]  [Teekaart](?)
 - [Workflow] 	[X-Road Joint Development Workflow](https://github.com/vrk-kpa/xroad-joint-development/blob/master/WORKFLOW.md).
