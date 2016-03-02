@@ -52,7 +52,7 @@ Arendusülesande püstitamisel selgitatakse välja niipalju, kui see on mõistli
 
 6.2	Täitja arvestab arendusülesande planeerimisel ja teostamisel Teekaardiga.
 
-6.3	Tellija ja Täitja lepivad kokku arendusülesande täitmises (Leping). Üldjuhul sisaldab arendusülesanne endas nii koodi, dokumentatsiooni kui testide koostamist.
+6.3	Tellija ja Täitja lepivad kokku arendusülesande täitmises (Leping). Üldjuhul sisaldab arendusülesanne endas nii koodi, dokumentatsiooni kui testide koostamist. Üldjuhul eeldatakse arendusülesande tulemite esitamist inglisekeelsena (koodis konstandid, muutujad, kommentaarid jms, testlood, paigaldusjuhend, dokumentatsioon jms)
 
 6.4	Tellija uuendab Teekaarti.
 
