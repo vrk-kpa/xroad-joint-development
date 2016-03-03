@@ -1,7 +1,11 @@
 (2016-03-02: Lisada pilt, kas inglisekeelsest versioonist või teha uus ning täpsem, tõenäoliselt ptk.5)
+
 (2016-03-02: Täpsustada Master asukoht ja mõiste läbi dokumendi. On see ühine XM või EE-spetsiifiline?)
+
 (2016-03-02: Täpsustada Freeze põhimõtted. KAs võiks olla freeze-aeg kasutatud ~1/3 mestimiseks ning ~2/3 võimalike vigade parandamiseks)
+
 (2016-03-02: Täpsustada Teekaart asukoht)
+
 (2016-03-02: Kus kirjeldada Arendusülesande mõjud ja seosed teiste Teekaardil olevate arendustega?)
 
 # X-TEE ARENDUSE TÖÖKORRALDUS
