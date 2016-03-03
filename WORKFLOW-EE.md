@@ -68,7 +68,7 @@ Arendusülesande püstitamisel selgitatakse välja niipalju, kui see on mõistli
 
 ### 7	Arendustöö alustamine
 
-7.1	Tellija annab Täitja meeskonnale ligipääsu X-tee `Master` hoidlale.
+7.1	Tellija annab Täitja meeskonnale ligipääsu X-tee `Master` hoidlale ja teistele vajalikele keskkondadele lähtuvalt  RIA Arendustööülesannete korraldusele [EE Projekt].
 
 7.2	Täitja moodustab X-tee `Master` hoidlast kloonimise või forkimise teel omale arendaja hoidla (ingl *vendor repo*).
 
@@ -80,6 +80,8 @@ Arendusülesande püstitamisel selgitatakse välja niipalju, kui see on mõistli
 
 8.2	Täitja kohustub asjakohase perioodilisusega tõmbama endale 'Master' hoidla `develop` harust uuendusi.
 Uuenduste tõmbamise eesmärk on kergendada Täitja teostatavate arendustükkide mestimist (ingl *Merge*) `Master` hoidla `develop` harusse.
+
+8.3 Täitja ja Tellija vaheline operatiivsuhtlus toimub vastavalt RIA Arendustööülesannete korraldusele [EE Projekt].
 
 ### 9	Arendustöö tulemuste üleandmine
 
@@ -109,10 +111,13 @@ Uuenduste tõmbamise eesmärk on kergendada Täitja teostatavate arendustükkide
 
 9.7	Vastuvõtusoovi tagasilükkamisel peab Täitja puudused kõrvaldama p.8.2 ning Lepingus sätestatud tingimustel.
 
+9.8 Tööde üleandmise-vastuvõtmise, võimalike vigade ning puuduste alane suhtlus toimub vastavalt RIA Arendustööülesannete korraldusele [EE Projekt].
+
 ### 10	Viidatud materjalid
 
 - [Bitbucket] 	Atlassian.com, [Code, Manage, Collaborate](https://www.atlassian.com/software/bitbucket).
 - [Charter] 	[X-Road Joint Development Charter](https://github.com/vrk-kpa/xroad-joint-development/blob/master/CHARTER.md).
+- [EE Projekt]  [RIA Arendustööülesannete korraldus](https://confluence.ria.ee/display/TEH/Arendustooylesannete+korraldus)
 - [Feature Branch Workflow] [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 - [Git] 	[Git distributed version control system](https://git-scm.com/). 
 - [Gitflow] 	Atlassian, Comparing workflows, [Gitflow workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
