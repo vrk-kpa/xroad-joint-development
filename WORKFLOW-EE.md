@@ -1,3 +1,9 @@
+(2016-03-02: Lisada pilt, kas inglisekeelsest versioonist või teha uus ning täpsem, tõenäoliselt ptk.5)
+(2016-03-02: Täpsustada Master asukoht ja mõiste läbi dokumendi. On see ühine XM või EE-spetsiifiline?)
+(2016-03-02: Täpsustada Freeze põhimõtted. KAs võiks olla freeze-aeg kasutatud ~1/3 mestimiseks ning ~2/3 võimalike vigade parandamiseks)
+(2016-03-02: Täpsustada Teekaart asukoht)
+(2016-03-02: Kus kirjeldada Arendusülesande mõjud ja seosed teiste Teekaardil olevate arendustega?)
+
 # X-TEE ARENDUSE TÖÖKORRALDUS
 
 *Estonian-specific rules for X-Road development workflow. The rules are kept in accordance with [X-Road Joint Development regulations](https://github.com/vrk-kpa/xroad-joint-development). Intended readership of this document is X-Road developers contracted by Estonian State Information System Authority.*
@@ -19,7 +25,7 @@ X-teed arendatakse rahvusvahelises koostöös. Ühisarenduse partnerid, edaspidi
 
 Koostöö nurgakiviks on ühtsena hoitav, ühine koodibaas ja dokumentatsioon. Ühisest baasist teevad Partnerid ja Täitjad oma vajadusteks koopiaid, kohandusi ja täiendusi.
 
-Arenduste koordineerimiseks on Partnerid kokku leppinud töökorralduse, mille tähtsamad elemendid on arendusprotokoll (vt j 3), ühisarenduse tšarter [Charter], X-tee teekaart (vt j 4), töövoo reeglistik [Workflow] ja ühisarenduse peaarhitekti (ingl *Head Architect*) roll.
+Arenduste koordineerimiseks on Partnerid kokku leppinud töökorralduse, mille tähtsamad elemendid on arendusprotokoll (vt j 3), ühisarenduse tšarter [Charter], X-tee teekaart (vt j 4), töövoo reeglistik [Workflow], mittefunktsionaalsed nõuded [NFR] ja ühisarenduse peaarhitekti (ingl *Head Architect*) roll.
 
 Märkus: ka käesoleva Töökorralduse täiendusettepanekuid võib teha GitHubi probleemide (*Issue*) ja/või vastuvõtusoovide (*Pull Request*) abil, loomulikult ka Tellijaga otsekommunikatsiooni abil.
 
@@ -31,7 +37,7 @@ Märkus: ka käesoleva Töökorralduse täiendusettepanekuid võib teha GitHubi 
 
 ### 4	X-tee teekaart
 
-4.1	Arenduste koordineerimiseks kasutatakse X-tee teekaarti (ingl *X-Road Roadmap*), edaspidi Teekaart. (NB! Viide Teekaardile!) Teekaardil fikseeritakse Partnerite poolt kokkulepitud arendustööde eesmärgid ja võtmetähtsusega tehnilised ning ajalised parameetrid.
+4.1	Arenduste koordineerimiseks kasutatakse X-tee teekaarti (ingl *X-Road Roadmap*), edaspidi Teekaart. (NB! Lisada viide Teekaardile!) Teekaardil fikseeritakse Partnerite poolt kokkulepitud arendustööde eesmärgid ja võtmetähtsusega tehnilised ning ajalised parameetrid.
 
 4.2 Teekaardi kinnitab Partnerite esindajatest koosnev juhtrühm (ingl *Steering Committee*).
 
@@ -52,7 +58,7 @@ Arendusülesande püstitamisel selgitatakse välja niipalju, kui see on mõistli
 
 6.2	Täitja arvestab arendusülesande planeerimisel ja teostamisel Teekaardiga.
 
-6.3	Tellija ja Täitja lepivad kokku arendusülesande täitmises (Leping). Üldjuhul sisaldab arendusülesanne endas nii koodi, dokumentatsiooni kui testide koostamist. Üldjuhul eeldatakse arendusülesande tulemite esitamist inglisekeelsena (koodis konstandid, muutujad, kommentaarid jms, testlood, paigaldusjuhend, dokumentatsioon jms)
+6.3	Tellija ja Täitja lepivad kokku arendusülesande täitmises (Leping). Üldjuhul sisaldab arendusülesanne endas nii koodi, dokumentatsiooni kui testide koostamist. Üldjuhul eeldatakse arendusülesande tulemite vastavus mittefunktsionaalsetele nõuetele [NFR].
 
 6.4	Tellija uuendab Teekaarti.
 
@@ -97,7 +103,7 @@ Uuenduste tõmbamise eesmärk on kergendada Täitja teostatavate arendustükkide
 10.	litsentsi korrasolek;
 11.	dokumentatsiooni uuendatus.
 
-9.7	Vastuvõtusoovi tagasilükkamisel peab Täitja puudused kõrvaldama Lepingus sätestatud tingimustel.
+9.7	Vastuvõtusoovi tagasilükkamisel peab Täitja puudused kõrvaldama p.8.2 ning Lepingus sätestatud tingimustel.
 
 ### 10	Viidatud materjalid
 
@@ -105,6 +111,7 @@ Uuenduste tõmbamise eesmärk on kergendada Täitja teostatavate arendustükkide
 - [Charter] 	[X-Road Joint Development Charter](https://github.com/vrk-kpa/xroad-joint-development/blob/master/CHARTER.md).
 - [Feature Branch Workflow] [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 - [Git] 	[Git distributed version control system](https://git-scm.com/). 
-- [Gitflow] 	Atlassian, Comparing workflows, [Gitflow workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
-- [Teekaart]  [Teekaart](?)
+- [Gitflow] 	Atlassian, Comparing workflows, [Gitflow workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+- [NFR] [X-Road Non-Functional Requirements](https://github.com/vrk-kpa/xroad-joint-development/blob/master/NFR.md)
+- [Teekaart]  [Teekaart](? https://confluence.ria.ee/display/XTEE/X-Roadmap)
 - [Workflow] 	[X-Road Joint Development Workflow](https://github.com/vrk-kpa/xroad-joint-development/blob/master/WORKFLOW.md).
