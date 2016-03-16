@@ -49,7 +49,7 @@ Märkus: ka käesoleva Töökorralduse täiendusettepanekuid võib teha GitHubi 
 
 ### 5	X-tee `Master` hoidla
 
-5.1	X-tee `Master` hoidlas, edaspidi `Master` hoidla, hoitakse X-tee koodi ja dokumentatsiooni peakoopiat (ingl *master copy*). Tehniliselt koosneb `Master` hoidla [RIA Bitbucket] (varem [RIA Stash]) keskkonnas majutatud ühest või mitmest Git hoidlast.
+5.1	X-tee `Master` hoidlas, edaspidi `Master` hoidla, hoitakse X-tee koodi ja dokumentatsiooni peakoopiat (ingl *master copy*). Tehniliselt koosneb `Master` hoidla [RIA Bitbucket] keskkonnas majutatud ühest või mitmest Git hoidlast.
 
 5.2	Juurdepääs `Master` hoidlale on piiratud.
 
@@ -122,7 +122,6 @@ Uuenduste tõmbamise eesmärk on kergendada Täitja teostatavate arendustükkide
 - [Git] 	[Git distributed version control system](https://git-scm.com/). 
 - [Gitflow] 	Atlassian, Comparing workflows, [Gitflow workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 - [NFR] [X-Road Non-Functional Requirements](https://github.com/vrk-kpa/xroad-joint-development/blob/master/NFR.md)
-- [RIA Bitbucket] [RIA Bitbucket](https://stash.ria.ee/projects)
-- [RIA Stash] [RIA Stash](https://stash.ria.ee/projects)
+- [RIA Bitbucket] [RIA Bitbucket, varem Stash](https://stash.ria.ee/projects)
 - [Teekaart]  [Teekaart](https://github.com/vrk-kpa/xroad-joint-development/blob/master/ROADMAP.md)
 - [Workflow] 	[X-Road Joint Development Workflow](https://github.com/vrk-kpa/xroad-joint-development/blob/master/WORKFLOW.md).
