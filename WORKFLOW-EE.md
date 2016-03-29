@@ -8,6 +8,8 @@
 
 (2016-03-02: Kus kirjeldada Arendusülesande mõjud ja seosed teiste Teekaardil olevate arendustega?)
 
+(2016-03-28: On kirjeldamata Täitja kohustus pakkuda teostatud töödele garantii: Juhul kui lisatud koodis või mestimise käigus sai Täitja poolt tehtud viga, siis XX perioodi jooksul peab Täitja pakkuma garantiid. Seejuures, ka iga veaparandusega seotud mestimine peab olema täismahus kaetud Täitja poolt antud garantiiga )
+
 # X-TEE ARENDUSE TÖÖKORRALDUS
 
 *Estonian-specific rules for X-Road development workflow. The rules are kept in accordance with [X-Road Joint Development regulations](https://github.com/vrk-kpa/xroad-joint-development). Intended readership of this document is X-Road developers contracted by Estonian State Information System Authority.*
