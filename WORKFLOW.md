@@ -45,8 +45,8 @@ See also other documentation in [X-Road Joint Development](https://github.com/vr
 ##4	Repositories
 
 4.1	The following code and documentation repositories are used:
-- Master Repository - short name: `XM`; hosted by: GitHub; managed by: RIA; purpose: release of X-Road software; access: Head Architect has write access; read access: ALL.
-- Master Test Repository - short name: `TM`; hosted by: GitHub; managed by: RIA; purpose: release of X-Road automated tests; access: Head Architect has write access; read access: ALL.
+- Master Repository - short name: [`XM`](https://github.com/ria-ee/XM); hosted by: GitHub; managed by: RIA; purpose: release of X-Road software; access: Head Architect has write access; read access: ALL.
+- Master Test Repository - short name: [`XTM`](https://github.com/ria-ee/XTM); hosted by: GitHub; managed by: RIA; purpose: release of X-Road automated tests; access: Head Architect has write access; read access: ALL.
 - Open Source Repository - short name: `XO`; hosted at: GitHub; purpose: open access publication of select parts of X-Road software; administered by: VRK; access: Head Architect has write access; everybody has read access.
 - Vendor repositories - purpose: development work carried out by Vendor; administered by: Vendor.
 
@@ -224,8 +224,8 @@ Procedure:
 
 ## 16 Testing
 
-16.1	All test scripts and software is published in TM
+16.1	All test scripts and software is published in XTM
 
-16.2 The branching pattern and workflow with TM is the same as with XM
+16.2 The branching pattern and workflow with XTM is the same as with XM
 
 16.3 For clarity TM is divided into 3 folders - COMMON, EE-NATIONAL and FI-NATIONAL. national folders are dedicated for national implementation only tests.
