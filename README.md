@@ -1,3 +1,9 @@
+# Unmaintained Repository
+
+Unmaintained repository. Development moved to: https://github.com/nordic-institute/X-Road-development
+
+X-Road Joint Development is now actively developed by the Nordic Institute for Interoperability Solutions (NIIS) The original X-Road Joint Development codebase here will be kept for archive purposes.
+
 # X-Road Joint Development
 
 This repository is used to store the originals of X-Road joint development work agreements and regulations. It is also used to manage changes to these documents.
